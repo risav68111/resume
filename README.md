@@ -53,7 +53,7 @@ Results-driven Java Spring Boot Full-Stack Developer with strong expertise in ba
 
 - Developed a machine learning model to predict smoking and drinking behaviors from body-signal data, executing complete end-to-end data preprocessing, model training, and evaluation using Python libraries.
 
-## Certifications
+## Certifications  
 
 - **Python with Data Visualization** | June 2021 – August 2021 | BRIZTECH Infosystems, Ranchi (Offline)
 - **Optimized Modeling Using R Programming** | March 2022 – May 2022 | Lifetech Software (Offline)
