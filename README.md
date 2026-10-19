@@ -7,7 +7,7 @@ LinkedIn: [rishav-kumar-848a9624a](https://www.linkedin.com/in/rishav-kumar-848a
 
 Results-driven Java Spring Boot Full-Stack Developer with strong expertise in backend API development, scalable database design, and Linux environments. Experienced in basic cloud infrastructure with foundational knowledge of Python, JavaScript, ReactJS, and HTMX. Currently expanding my backend capabilities by learning Go.
 
-## Experience
+## Experience  
 
 ### Software Engineer | Fios Compliance, Gurugram
 *August 2025 – Present*
