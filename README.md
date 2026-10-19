@@ -1,8 +1,7 @@
 # Rishav Kumar
 
 Gurugram | +91 6206056035 | rishav.kumar.68111@gmail.com  
-LinkedIn: [rishav-kumar-848a9624a](https://www.linkedin.com/in/rishav-kumar-848a9624a)  
-GitHub: [risav68111](https://github.com/risav68111) | Codeforces: [risav68111](https://codeforces.com/profile/risav68111)
+LinkedIn: [rishav-kumar-848a9624a](https://www.linkedin.com/in/rishav-kumar-848a9624a) | GitHub: [risav68111](https://github.com/risav68111) | Codeforces: [risav68111](https://codeforces.com/profile/risav68111)
 
 ## Professional Summary
 
