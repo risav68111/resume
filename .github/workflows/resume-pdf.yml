@@ -40,10 +40,15 @@ jobs:
             --standalone
             --metadata=title:"Rishav Kumar - Resume"
 
+      - name: Prepare PDF for deployment
+        run: |
+          mkdir -p public
+          cp resume.pdf public/resume.pdf
+
       - name: Upload PDF for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: resume.pdf
+          path: public
 
       - name: Deploy PDF
         id: deployment
