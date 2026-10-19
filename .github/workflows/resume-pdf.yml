@@ -1,0 +1,50 @@
+
+name: Generate and Publish Resume PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/resume-pdf.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: resume-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Convert README to PDF
+        uses: docker://pandoc/latex:latest
+        with:
+          args: >-
+            README.md
+            --output=resume.pdf
+            --standalone
+            --metadata=title:"Rishav Kumar - Resume"
+
+      - name: Upload PDF for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: resume.pdf
+
+      - name: Deploy PDF
+        id: deployment
+        uses: actions/deploy-pages@v4
