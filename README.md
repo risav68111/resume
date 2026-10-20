@@ -12,26 +12,6 @@ Results-driven Java Spring Boot Full-Stack Developer with strong expertise in ba
 ### Software Engineer | Fios Compliance, Gurugram
 *August 2025 – Present*
 
-- **Backend Architecture (iHelp):** Designed the database schema and engineered the complete RESTful API backend for "iHelp," an internal ticket management application utilized by the parent company.
-- **System Optimization & Full-Stack Migration (v2):** Spearheaded the Version 2 web scraping engine by migrating the backend to Java Spring Boot, building ReactJS components, optimizing AWS workload distribution, and implementing Microsoft OAuth2/JWT for secure multi-tenant authorization.
-
-### Software Engineer Intern | Fios Compliance, Gurugram
-*May 2025 – August 2025*
-
-- Developed web scraping scripts for nearly 100 distinct websites within two months while implementing targeted enhancements to the core Java Spring Boot and Selenium automation engine for reliable data extraction and structured Excel reporting.
-
-### Web Development Intern | WEBSTACKACADEMY.COM
-*July 2024 – September 2024*
-
-- Developed a full-stack food ordering web application utilizing ReactJS, Node.js, and MongoDB, successfully implementing secure user authentication, dynamic data fetching, and efficient cart state management.
-
-## Education
-
-- **MCA:** K R Mangalam University, Haryana | CGPA: 6.7/10 | 2023–2025
-- **BCA:** Dr. Shyama Prasad Mukherjee University, Ranchi | CGPA: 71.4% | 2019–2022
-
-## Projects
-
 ### Library Management System
 **Technologies:** Java, JavaFX, MySQL, JDBC, Maven
 
