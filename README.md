@@ -11,12 +11,12 @@ Java Spring Boot Developer experienced in backend API development, web automatio
 
 ### Software Engineer | Fios Compliance, Gurugram | *August 2025 – Present*
 **Backend Architecture ([iHelp](https://ihelp.aleaconsulting.com)):** Designed the database schema and engineered the complete RESTful API backend for "iHelp," an internal ticket management application.  
-**System Optimization & Full-Stack Migration (v2)[Link](https://opendataintel.com)**:
-- Developed a Spring Boot backend for API management, authentication, and dynamic job distribution.
-- Redesigned the automation engine using Spring Boot, Playwright, and Selenium.
-- Implemented multithreading and dynamic scheduling to maximize AWS instance utilization.
-- Integrated Amazon SQS for job distribution, Redis for coordination, and HikariCP for database connectivity and job status tracking.
-- Fixed critical bugs and optimized automation workflows for improved reliability and performance.
+**System Optimization & Full-Stack Migration (v2)[Link](https://opendataintel.com)**:  
+- Developed a Spring Boot backend for API management, authentication, and dynamic job distribution.  
+- Redesigned the automation engine using Spring Boot, Playwright, and Selenium.  
+- Implemented multithreading and dynamic scheduling to maximize AWS instance utilization.  
+- Integrated Amazon SQS for job distribution, Redis for coordination, and HikariCP for database connectivity and job status tracking.  
+- Fixed critical bugs and optimized automation workflows for improved reliability and performance.  
 
 ### Software Engineer Intern | Fios Compliance, Gurugram | *May 2025 – August 2025*
 - Developed scraping scripts for 180+ websites in two months and enhanced the Java Spring Boot/Selenium engine for reliable data extraction and Excel reporting.
