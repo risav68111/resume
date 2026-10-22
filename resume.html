@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rishav Kumar | Resume</title>
+  <style>
+    :root {
+      --ink: #202938;
+      --muted: #536174;
+      --accent: #2457a7;
+      --rule: #d8e0ea;
+      --paper: #ffffff;
+      --soft: #f3f6fa;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: #e9edf3; }
+
+    body {
+      max-width: 900px;
+      margin: 28px auto;
+      padding: 34px 42px;
+      color: var(--ink);
+      background: var(--paper);
+      font: 10pt/1.38 Arial, Helvetica, sans-serif;
+      box-shadow: 0 3px 22px rgba(20, 35, 55, .10);
+    }
+
+    header {
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    h1 {
+      margin: 0 0 5px;
+      font-size: 27pt;
+      line-height: 1.08;
+      letter-spacing: -.6px;
+    }
+
+    .headline {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 11pt;
+      font-weight: 700;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+      color: var(--muted);
+      font-size: 9pt;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .contact a, .project-link { color: var(--accent); }
+
+    section { margin-top: 13px; }
+
+    h2 {
+      margin: 0 0 6px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid var(--rule);
+      color: var(--accent);
+      font-size: 11.5pt;
+      text-transform: uppercase;
+      letter-spacing: .7px;
+    }
+
+    h3 {
+      margin: 7px 0 2px;
+      font-size: 10pt;
+      line-height: 1.25;
+    }
+
+    p { margin: 3px 0 5px; }
+
+    .role {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+      margin-top: 7px;
+    }
+
+    .role h3 { margin: 0; }
+
+    .date {
+      flex-shrink: 0;
+      color: var(--muted);
+      font-size: 9pt;
+      font-style: italic;
+    }
+
+    .subheading {
+      margin: 6px 0 2px;
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 3px 0 6px;
+      padding-left: 17px;
+    }
+
+    li { margin: 2px 0; padding-left: 1px; }
+
+    .education-item { margin: 3px 0; }
+
+    .project { margin: 6px 0; }
+    .project h3 { margin: 0 0 2px; }
+    .tech { color: var(--muted); font-size: 9pt; }
+
+    .skills p { margin: 4px 0; }
+    .skills strong { color: var(--ink); }
+
+    .certifications {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 22px;
+      row-gap: 4px;
+    }
+
+    .cert { break-inside: avoid; }
+
+    @media (max-width: 640px) {
+      body { margin: 0; padding: 24px 20px; }
+      .role { align-items: flex-start; flex-direction: column; gap: 1px; }
+      .certifications { grid-template-columns: 1fr; }
+    }
+
+    @page {
+      size: A4;
+      margin: 10mm;
+    }
+
+    @media print {
+      html { background: #fff; }
+      body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        font-size: 9.3pt;
+        line-height: 1.28;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      header { padding-bottom: 9px; }
+      h1 { font-size: 23pt; }
+      section { margin-top: 9px; }
+      h2 { margin-bottom: 4px; font-size: 10.5pt; }
+      h3 { font-size: 9.5pt; }
+      ul { margin-bottom: 4px; }
+      li { margin: 1px 0; }
+      a { color: inherit; }
+      .role, .project, .cert { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rishav Kumar</h1>
+    <!-- <p class="headline">Java Spring Boot Developer</p> -->
+    <div class="contact">
+      <span>Gurugram</span>
+      <span><a href="tel:+916206056035">+91 6206056035</a></span>
+      <span><a href="mailto:rishav.kumar.68111@gmail.com">rishav.kumar.68111@gmail.com</a></span>
+      <span><a href="https://www.linkedin.com/in/rishav-kumar-848a9624a">LinkedIn</a></span>
+      <span><a href="https://github.com/risav68111">GitHub</a></span>
+      <span><a href="https://codeforces.com/profile/risav68111">Codeforces</a></span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>Java Spring Boot Developer experienced in backend API development, web automation, database design, and AWS optimization. Skilled in maintaining production applications, reviewing code changes, and implementing new features. Experienced with Spring Boot, Selenium, Playwright, Redis, Amazon SQS, and OAuth2/JWT authentication, with knowledge of Linux, cloud infrastructure, and Go.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="role">
+      <h3>Software Engineer | Fios Compliance, Gurugram</h3>
+      <span class="date">August 2025 – Present</span>
+    </div>
+    <p class="subheading">Backend Architecture — <a class="project-link" href="https://ihelp.aleaconsulting.com">iHelp</a></p>
+    <ul>
+      <li>Designed the database schema and built the REST API backend for an internal ticket management application.</li>
+    </ul>
+
+    <p class="subheading">System Optimization &amp; Automation Engine Migration (v2) — <a class="project-link" href="https://opendataintel.com">OpenDataIntel</a></p>
+    <ul>
+      <li>Developed a Spring Boot backend for API management, authentication, and dynamic job distribution.</li>
+      <li>Redesigned the automation engine using Spring Boot, Playwright, and Selenium.</li>
+      <li>Implemented multithreading and dynamic scheduling to maximize AWS instance utilization.</li>
+      <li>Integrated Amazon SQS for job distribution, Redis for coordination and tracking, and HikariCP for database connectivity.</li>
+      <li>Fixed critical bugs and optimized automation workflows for reliability and performance.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Software Engineer Intern | Fios Compliance, Gurugram</h3>
+      <span class="date">May 2025 – August 2025</span>
+    </div>
+    <ul>
+      <li>Developed scraping scripts for 180+ websites in two months and enhanced the Java Spring Boot/Selenium engine for reliable data extraction and Excel reporting.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p class="education-item"><strong>MCA</strong> — K R Mangalam University, Haryana <span class="date">| 2023–2025</span> | CGPA: 6.7/10</p>
+    <p class="education-item"><strong>BCA</strong> — Dr. Shyama Prasad Mukherjee University, Ranchi <span class="date">| 2019–2022</span> | CGPA: 71.4%</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Library Management System</h3>
+      <p class="tech">Java, JavaFX, MySQL, JDBC, Maven</p>
+      <p>Developed a Java desktop application using OOP, JDBC, and MySQL for role-based access and management of users, books, and transactions.</p>
+    </div>
+
+    <div class="project">
+      <h3>Food Ordering System</h3>
+      <p class="tech">ReactJS, JavaScript, Node.js, MongoDB, HTML/CSS, Bootstrap</p>
+      <p>Built a full-stack food ordering application with secure authentication, dynamic menus, cart management, and order workflows.</p>
+    </div>
+
+    <div class="project">
+      <h3>Face Recognition Attendance System</h3>
+      <p class="tech">Python, OpenCV, MySQL, Tkinter</p>
+      <p>Developed a face recognition attendance system with user registration, profile management, and automated attendance tracking.</p>
+    </div>
+
+    <div class="project">
+      <h3>Smoking and Drinking Prediction Using Body Signals</h3>
+      <p class="tech">Python, scikit-learn, LightGBM, PyTorch, Matplotlib, Jupyter Notebook</p>
+      <p>Built a machine learning model to predict smoking and drinking behaviors, including data preprocessing, training, and evaluation.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <p><strong>Languages &amp; Databases:</strong> Java, Go (Golang), Python, JavaScript, SQL, MySQL, PostgreSQL, MongoDB, Redis</p>
+      <p><strong>Backend &amp; Security:</strong> Spring Boot, JDBC, Maven/Gradle, JWT, OAuth 2.0, Authentication, Authorization</p>
+      <p><strong>Frontend &amp; Automation:</strong> ReactJS, HTMX, HTML/CSS, Selenium, Web Automation, Browser Extensions</p>
+      <p><strong>Cloud &amp; Core:</strong> AWS, Docker, Git, Linux, OOP, Data Structures &amp; Algorithms, Multithreading, Database Design</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <div class="cert">Python with Data Visualization — BRIZTECH Infosystems (Jun–Aug 2021)</div>
+      <div class="cert">Optimized Modeling Using R Programming — Lifetech Software (Mar–May 2022)</div>
+      <div class="cert">Ethical Hacking Essentials (EHE) — EC Council (Apr–Aug 2024)</div>
+      <div class="cert">Python for Machine Learning Data Science Masterclass — Udemy (Oct–Dec 2023)</div>
+    </div>
+  </section>
+</body>
+</html>
